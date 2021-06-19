@@ -1,0 +1,553 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inspeccion</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				font-size: 10pt;
+			}
+			p {
+				margin: 0pt;
+			}
+			.label_letra {
+				line-height: 2px;
+				font-family: Arial, sans-serif;
+				padding-left: 10px;
+			}
+			.form-check-input {
+				width: 18px;
+				height: 18px;
+				vertical-align: middle;
+				color: #999999;
+				font-size: 18px;
+			}
+			.mb-1 {
+				margin-bottom: 5pt;
+			}
+			.mb-2 {
+				margin-bottom: 10pt;
+			}
+			.items td.blanktotal {
+				vertical-align: top;
+			}
+		</style>
+	</head>
+	<body>
+		<table width="100%" border="0">
+			<tr>
+				<td width="20%" align="center">
+					<img src="img/logotipo.png" width="150" style="vertical-align: top" />
+				</td>
+				<td width="80%" align="center">
+					<h2>REGISTRO DE ENTREGA Y RECEPCION DE VEHICULO</h2>
+					<br />
+					<table class="tabla" border="0" width="100%">
+						<tr>
+							<td colspan="4"><strong>Cliente:</strong> Juan Perez Sanchez</td>
+							<td colspan="4"><strong>Teléfono:</strong> (951) 231-418</td>
+							<td colspan="2" align="right"><strong>Fecha:</strong> 07/06/2021</td>
+						</tr>
+						<tr>
+							<td colspan="4"><strong>Marca:</strong>Toyota</td>
+							<td colspan="4"><strong>Modelo:</strong>pick Up</td>
+							<td colspan="2"><strong>Año:</strong> 2021</td>
+						</tr>
+						<tr>
+							<td colspan="3"><strong>Color:</strong> Amarillo</td>
+							<td colspan="4"><strong>Placa:</strong> AAA-23-45</td>
+							<td><strong>Equipo:</strong></td>
+							<td>
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Propio"
+										name="p_equipo"
+										id="radio5"
+										class="form-check-input"
+									/><label for="radio5" class="form-check-label label_letra">Propio</label>
+								</div>
+							</td>
+							<td>
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Alquilado"
+										name="p_equipo"
+										id="radio6"
+										class="form-check-input"
+									/><label for="radio6" class="form-check-label label_letra">Alquilado</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" align="center"><strong>Tipo</strong></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td colspan="4" align="center"><strong>Combustible</strong></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td align="center">
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Pick Up"
+										id="radio1"
+										name="p_tipo"
+										class="form-check-input"
+									/><label for="radio1" class="form-check-label label_letra">Pick Up</label>
+								</div>
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Automóvil"
+										id="radio2"
+										name="p_tipo"
+										class="form-check-input"
+									/><label for="radio2" class="form-check-label label_letra">Automóvil</label>
+								</div>
+							</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td align="right">
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Gas"
+										name="p_combustible"
+										id="radio3"
+										class="form-check-input"
+									/><label for="radio3" class="form-check-label label_letra">Gas</label>
+								</div>
+							</td>
+							<td>&nbsp;</td>
+							<td align="center">
+								<div class="form-check">
+									<input
+										type="radio"
+										value="Disel"
+										name="p_combustible"
+										id="radio4"
+										class="form-check-input"
+									/><label for="radio4" class="form-check-label label_letra">Disel</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0">
+			<tr>
+				<td width="40%" align="center">
+					<img src="img/camioneta.png" width="400" height="560" style="" />
+				</td>
+				<td width="10%"></td>
+				<td width="40%" align="center">
+					<img src="img/coche.png" width="400" height="560" style="" />
+				</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" class="mb-1">
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="1"
+							id="checkbox1"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox1" class="form-check-label label_letra">Espejo izquierdo</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="9"
+							id="checkbox9"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox9" class="form-check-label label_letra">Birlo de seguridad</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="17"
+							id="checkbox17"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox17" class="form-check-label label_letra">Encendedor</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="25"
+							id="checkbox25"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox25" class="form-check-label label_letra">Placa delantera</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="2"
+							id="checkbox2"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox2" class="form-check-label label_letra">Espejo Derecho</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="10"
+							id="checkbox10"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox10" class="form-check-label label_letra">Tapon de Gasolina</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="18"
+							id="checkbox18"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox18" class="form-check-label label_letra">Faros</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="26"
+							id="checkbox26"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox26" class="form-check-label label_letra">Placa tracera</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="3"
+							id="checkbox3"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox3" class="form-check-label label_letra">Retrovisor</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="11"
+							id="checkbox11"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox11" class="form-check-label label_letra">Gato</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="19"
+							id="checkbox19"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox19" class="form-check-label label_letra">Molduras</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td class="Cell7"></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="4"
+							id="checkbox4"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox4" class="form-check-label label_letra">Tapetes</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="12"
+							id="checkbox12"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox12" class="form-check-label label_letra">Cables pasa corriente</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="20"
+							id="checkbox20"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox20" class="form-check-label label_letra">Calaveras</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td class="Cell7"></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="5"
+							id="checkbox5"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox5" class="form-check-label label_letra">Limpiadores</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="13"
+							id="checkbox13"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox13" class="form-check-label label_letra">Tapon de llanta</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="21"
+							id="checkbox21"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox21" class="form-check-label label_letra">Parrilla</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td class="Cell7" rowspan="4" align="center">
+					<img src="img/combustible.png" alt="" width="190" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="6"
+							id="checkbox6"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox6" class="form-check-label label_letra">Claxon</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="14"
+							id="checkbox14"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox14" class="form-check-label label_letra">Parabrisas</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="22"
+							id="checkbox22"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox22" class="form-check-label label_letra">Llanta de refaccion</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="7"
+							id="checkbox7"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox7" class="form-check-label label_letra">Antena</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="15"
+							id="checkbox15"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox15" class="form-check-label label_letra">Medallon</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="23"
+							id="checkbox23"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox23" class="form-check-label label_letra">Herramienta</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="8"
+							id="checkbox8"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox8" class="form-check-label label_letra">Esterio</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="16"
+							id="checkbox16"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox16" class="form-check-label label_letra">Cristales de puertas</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+				<td>
+					<div class="form-check">
+						<input
+							type="checkbox"
+							value="24"
+							id="checkbox24"
+							class="form-check-input p_accesorios"
+						/><label for="checkbox24" class="form-check-label label_letra">Extinguidor</label>
+					</div>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+
+		<table width="100%" border="0" class="items" style="font-size: 9pt; border-collapse: collapse">
+			<tr>
+				<td width="50%" class="blanktotal" rowspan="5"><strong>Observaciones</strong></td>
+				<td colspan="2" rowspan="5" align="right" width="30%"></td>
+				<td colspan="2" align="right" width="20%"><strong>Kilometraje (km)</strong></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><strong>Marca de Llantas</strong></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><strong>Número de Serie</strong></td>
+			</tr>
+		</table>
+		<p align="center" style="font-size: 8pt; margin-bottom: 10pt">
+			<strong>Nota: No dejo ningún artículo personal en este vehículo.</strong>
+		</p>
+		<table width="100%" border="0">
+			<thead>
+				<tr align="center">
+					<th width="48%">Cliente</th>
+					<th width="2%"></th>
+					<th width="48%">Agente de Servicio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td height="50" align="center">_______________________________</td>
+					<td></td>
+					<td height="50" align="center">_______________________________</td>
+				</tr>
+				<tr>
+					<td align="center"><strong>Juan Perez Sanchez</strong></td>
+					<td></td>
+					<td align="center"><strong>Ing. Elias Alejandro Morales</strong></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div style="padding: 20px">
+			<h4>TÉRMINOS Y CONDICIONES</h4>
+			<p>
+				Estoy de acuerdo en que la hoja de servicio anexada a este documento fue revisada y detenidamente
+				con claridad y firmada de conformidad en relación con los objetos y daños registrados que el
+				vehículo puede presentar.
+			</p>
+			<h4>SERVICIO GENERALES</h4>
+			<p>
+				El cliente deberá de recoger su auto dos días máximo a la fecha de entrega mencionada por la
+				empresa en caso de no cumplir se pagan $100.00 pesos diarios de retraso por concepto de pensión.
+			</p>
+			<h4>SERVICIO DE RESTAURACIÓN</h4>
+			<p>
+				El cliente deberá de cumplir con los requerimientos especificados por la empresa para poder
+				completar los trabajos a realizar en caso de que se termine una etapa y el cliente no cumpla con
+				la fecha establecida de entrega de dinero o piezas se pagaran $100.00 pesos cada día por concepto
+				de pensión.
+			</p>
+			<br />
+			<p>
+				En caso de que el presupuesto no sea aceptado, el consumidor pagara exclusivamente el costo por
+				la revisión y diagnóstico y el prestador del servicio se obliga a devolver el vehículo en las
+				condiciones en las que le fue entregado, exceptuando las consecuencias inevitables del
+				diagnóstico.
+			</p>
+
+			<h4>PROTECCIÓN DE DATOS</h4>
+			<p>
+				El PROPIETARIO DEL TALLER es el responsable del tratamiento de los datos personales
+				proporcionados bajo su consentimiento, le informa que estos datos serán tratados de conformidad
+				con la dispuesta en el artículo 16 de la Constitución mexicana, con la finalidad de mantener una
+				relación comercial y conservarlos mientras exista un interés mutuo para mantener el fin del
+				tratamiento y cuando ya no sea necesario para tal fin. Se suprimirán con medidas de seguridad
+				adecuadas para garantizar la suboptimización de los datos a la destrucción total de los mismos.
+				No se comunicarán los datos a terceros, salvo obligación legal.
+			</p>
+			<br />
+			<p align="center">Acepto los términos establecidos en este documento</p>
+		</div>
+	</body>
+</html>
